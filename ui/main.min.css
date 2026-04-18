@@ -1,17 +1,15 @@
-<script type='text/javascript'>
-//<![CDATA[
 
 const styles = [
-  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/style.min.css",
-  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/file1.min.css"
+  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/404Erorr.min.css",
+  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/Discount.min.css",
+  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/style.min.css?v=1",
+  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/AutomaticThemeChanger.min.css"
 ];
 
 styles.forEach(href => {
-  const link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.href = href;
-  document.head.appendChild(link);
+  const l = document.createElement("link");
+  l.rel = "stylesheet";
+  l.href = href;
+  document.head.appendChild(l);
 });
 
-//]]>
-</script>
