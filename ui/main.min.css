@@ -1,1 +1,17 @@
+<script type='text/javascript'>
+//<![CDATA[
 
+const styles = [
+  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/style.min.css",
+  "https://cdn.jsdelivr.net/gh/Techlystb/assets/css/file1.min.css"
+];
+
+styles.forEach(href => {
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href = href;
+  document.head.appendChild(link);
+});
+
+//]]>
+</script>
